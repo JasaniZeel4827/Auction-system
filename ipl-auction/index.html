@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IPL Auction</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>IPL Auction</h1>
+    <!--Timer-->
+    <div class="timer-container" style="display:none">
+      <p>Time Remaining: <span id="timer">10</span> seconds</p>
+    </div>
+
+    <!--Players List-->
+    <ul id="playersList" class="players-list"></ul>
+
+    <!-- Teams Section-->
+    <div class="teams-container">
+      <div class="team-widget" id="team1">
+        <h2></h2>
+        <p>Budget: <span id="budget-team1"></span></p>
+        <button class="bid-now-button" disabled>Bid Now</button>
+
+        <ul id="players-team1" class="purchased-list">
+          <li><strong>Purchased Players:</strong></li>
+        </ul>
+      </div>
+      <div class="team-widget" id="team2">
+        <h2></h2>
+        <p>Budget: <span id="budget-team2"></span></p>
+        <button class="bid-now-button" disabled>Bid Now</button>
+
+        <ul id="players-team2" class="purchased-list">
+          <li><strong>Purchased Players:</strong></li>
+        </ul>
+      </div>
+      <div class="team-widget" id="team3">
+        <h2></h2>
+        <p>Budget: <span id="budget-team3"></span></p>
+        <button class="bid-now-button" disabled>Bid Now</button>
+
+        <ul id="players-team3" class="purchased-list">
+          <li><strong>Purchased Players:</strong></li>
+        </ul>
+      </div>
+    </div>
+
+    <!--SOLD button-->
+    <div class="sold-container" style="display:none">
+      <button id="soldButton" class="sold-button" onclick="sellPlayer()">
+        SOLD
+      </button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,155 @@
+/* === Players === */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.players-list {
+  list-style: none;
+  padding: 0;
+}
+
+.player-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.player-details {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.start-bid-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.start-bid-button:hover {
+  background-color: #0056b3;
+}
+
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.players-list {
+  list-style: none;
+  padding: 0;
+}
+
+.player-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.player-details {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.start-bid-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.start-bid-button:hover {
+  background-color: #0056b3;
+}
+
+/* === Teams === */
+.teams-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.team-widget {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 30%;
+  text-align: center;
+}
+
+.team-widget h2 {
+  margin-bottom: 10px;
+}
+
+.team-widget p {
+  margin: 10px 0;
+}
+.team-widget .bid-now-button {
+  background-color: #9807db;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+/* Style for the list of purchased players in each team widget */
+.purchased-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style for the section displaying the list of all purchased players */
+.purchased-players {
+  margin-top: 20px;
+}
+
+.purchased-players h3 {
+  font-size: 18px;
+}
+
+/* Add any additional styling as needed */
+
+/* === Timer === */
+.timer-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.timer-container p {
+  font-size: 18px;
+}
+
+/* === SOLD Button === */
+.sold-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.sold-button {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 20px 50px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 100px;
+}
