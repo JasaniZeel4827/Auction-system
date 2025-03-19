@@ -5,23 +5,65 @@ let playerIndex = -1;
 
 const players = [
   {
-    name: "Virat Kohli",
-    country: "India",
-    category: "Batsman",
-    basePrice: 100
-  },
-  {
-    name: "Brett Lee",
-    country: "Australia",
-    category: "Bowler",
-    basePrice: 150
-  },
-  {
-    name: "Moeen Ali",
-    country: "England",
-    category: "All-Rounder",
-    basePrice: 200
-  }
+        teamName: "Chennai Super Kings",
+        homeCity: "Chennai",
+        captain: "MS Dhoni",
+        coach: "Stephen Fleming"
+    },
+    {
+        teamName: "Mumbai Indians",
+        homeCity: "Mumbai",
+        captain: "Rohit Sharma",
+        coach: "Mark Boucher"
+    },
+    {
+        teamName: "Royal Challengers Bangalore",
+        homeCity: "Bangalore",
+        captain: "Faf du Plessis",
+        coach: "Sanjay Bangar"
+    },
+    {
+        teamName: "Kolkata Knight Riders",
+        homeCity: "Kolkata",
+        captain: "Shreyas Iyer",
+        coach: "Chandrakant Pandit"
+    },
+    {
+        teamName: "Delhi Capitals",
+        homeCity: "Delhi",
+        captain: "David Warner",
+        coach: "Ricky Ponting"
+    },
+    {
+        teamName: "Rajasthan Royals",
+        homeCity: "Jaipur",
+        captain: "Sanju Samson",
+        coach: "Kumar Sangakkara"
+    },
+    {
+        teamName: "Punjab Kings",
+        homeCity: "Mohali",
+        captain: "Shikhar Dhawan",
+        coach: "Trevor Bayliss"
+    },
+    {
+        teamName: "Sunrisers Hyderabad",
+        homeCity: "Hyderabad",
+        captain: "Aiden Markram",
+        coach: "Brian Lara"
+    },
+    {
+        teamName: "Lucknow Super Giants",
+        homeCity: "Lucknow",
+        captain: "KL Rahul",
+        coach: "Andy Flower"
+    },
+    {
+        teamName: "Gujarat Titans",
+        homeCity: "Ahmedabad",
+        captain: "Hardik Pandya",
+        coach: "Ashish Nehra"
+    }
 ];
 
 
@@ -55,9 +97,16 @@ renderPlayers();
 
 
 const teams = {
-  team1: { name: "Rajasthan Royals", budget: 400, players: [], bids: [] },
-  team2: { name: "Chennai Super Kings", budget: 150, players: [], bids: [] },
-  team3: { name: "RCB", budget: 100, players: [], bids: [] }
+ team1: { name: "Rajasthan Royals", budget: 400, players: [], bids: [] },
+    team2: { name: "Chennai Super Kings", budget: 450, players: [], bids: [] },
+    team3: { name: "Mumbai Indians", budget: 500, players: [], bids: [] },
+    team4: { name: "Royal Challengers Bangalore", budget: 470, players: [], bids: [] },
+    team5: { name: "Kolkata Knight Riders", budget: 430, players: [], bids: [] },
+    team6: { name: "Delhi Capitals", budget: 420, players: [], bids: [] },
+    team7: { name: "Punjab Kings", budget: 410, players: [], bids: [] },
+    team8: { name: "Sunrisers Hyderabad", budget: 390, players: [], bids: [] },
+    team9: { name: "Lucknow Super Giants", budget: 440, players: [], bids: [] },
+    team10: { name: "Gujarat Titans", budget: 460, players: [], bids: [] }
 };
 
 
